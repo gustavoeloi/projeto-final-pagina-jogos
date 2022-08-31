@@ -399,6 +399,6 @@ btnJogo24.addEventListener('click', () => {
     qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game24} | Preço: <span class="valor">R$${priceGame24.toFixed(2)}</span></p>`;
   } else {
-    alert('O item não foi adicionado!');
+    alert('O item não foi adicionado');
   }
 })
