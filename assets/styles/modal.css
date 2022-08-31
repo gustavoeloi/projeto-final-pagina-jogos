@@ -68,6 +68,22 @@
   box-shadow: 0 4px 4px rgba(0, 0, 0, .3);
 }
 
+.itens-adicionados {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qtd-itens {
+  width: 20px;
+  padding: 8px;
+  color: #FFF;
+  border-radius: 50%;
+  text-align: center;
+  background: red;
+}
+
+
 /* ESTILOS DOS ITENS NO MODAL */
 
 #pedidos {

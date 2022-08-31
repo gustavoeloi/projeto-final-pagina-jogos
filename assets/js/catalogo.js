@@ -1,9 +1,10 @@
 var qtdItens = 0;
 var valorTotal = 0;
 
-var qtdCarrinho = document.getElementById('itens-loja');
+var qtdCarrinho = document.getElementById('show-qtd');
 var valorItens = document.getElementById('valor-total');
 const carrinho = document.getElementById('pedidos');
+
 
 // BOTÕES SECTION PLAYSTATION
 const btnJogo1 = document.getElementById('btn-ps-1');
@@ -46,6 +47,7 @@ btnJogo1.addEventListener('click', () => {
     valorTotal += priceGame1;
     valorItens.innerHTML = `R$${valorTotal}`;  
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game1} | Preço: <span class="valor">R$${priceGame1.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -60,6 +62,7 @@ btnJogo2.addEventListener('click', () => {
     valorTotal += priceGame2;
     valorItens.innerHTML = `R$${valorTotal}`; 
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game2} | Preço: <span class="valor">R$${priceGame2.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -74,6 +77,7 @@ btnJogo3.addEventListener('click', () => {
     valorTotal += priceGame3;
     valorItens.innerHTML = `R$${valorTotal}`;  
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game3} | Preço: <span class="valor">R$${priceGame3.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -88,6 +92,7 @@ btnJogo4.addEventListener('click', () => {
     valorTotal += priceGame4;
     valorItens.innerHTML = `R$${valorTotal}`;  
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game4} | Preço: <span class="valor">R$${priceGame4.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -102,6 +107,7 @@ btnJogo5.addEventListener('click', () => {
     valorTotal += priceGame5;
     valorItens.innerHTML = `R$${valorTotal}`; 
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game5} | Preço: <span class="valor">R$${priceGame5.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -116,6 +122,7 @@ btnJogo6.addEventListener('click', () => {
     valorTotal += priceGame6;
     valorItens.innerHTML = `R$${valorTotal}`;     
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game6} | Preço: <span class="valor">R$${priceGame6.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -130,6 +137,7 @@ btnJogo7.addEventListener('click', () => {
     valorTotal += priceGame7;
     valorItens.innerHTML = `R$${valorTotal}`; 
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game7} | Preço: <span class="valor">R$${priceGame7.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -144,6 +152,7 @@ btnJogo8.addEventListener('click', () => {
     valorTotal += priceGame8;
     valorItens.innerHTML = `R$${valorTotal}`;
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game8} | Preço: <span class="valor">R$${priceGame8.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -160,6 +169,7 @@ btnJogo9.addEventListener('click', () => {
     valorTotal += priceGame9;
     valorItens.innerHTML = `R$${valorTotal}`;  
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game9} | Preço: <span class="valor">R$${priceGame9.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -174,6 +184,7 @@ btnJogo10.addEventListener('click', () => {
     valorTotal += priceGame10;
     valorItens.innerHTML = `R$${valorTotal}`; 
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game10} | Preço: <span class="valor">R$${priceGame10.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -188,6 +199,7 @@ btnJogo11.addEventListener('click', () => {
     valorTotal += priceGame11;
     valorItens.innerHTML = `R$${valorTotal}`; 
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game11} | Preço: <span class="valor">R$${priceGame11.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -202,6 +214,7 @@ btnJogo12.addEventListener('click', () => {
     valorTotal += priceGame12;
     valorItens.innerHTML = `R$${valorTotal}`;   
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game12} | Preço: <span class="valor">R$${priceGame12.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -216,6 +229,7 @@ btnJogo13.addEventListener('click', () => {
     valorTotal += priceGame13;
     valorItens.innerHTML = `R$${valorTotal}`;  
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game13} | Preço: <span class="valor">R$${priceGame13.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -230,6 +244,7 @@ btnJogo14.addEventListener('click', () => {
     valorTotal += priceGame14;
     valorItens.innerHTML = `R$${valorTotal}`;
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game14} | Preço: <span class="valor">R$${priceGame14.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -244,6 +259,7 @@ btnJogo15.addEventListener('click', () => {
     valorTotal += priceGame15;
     valorItens.innerHTML = `R$${valorTotal}`;   
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game15} | Preço: <span class="valor">R$${priceGame15.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -258,6 +274,7 @@ btnJogo16.addEventListener('click', () => {
     valorTotal += priceGame16;
     valorItens.innerHTML = `R$${valorTotal}`; 
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game16} | Preço: <span class="valor">R$${priceGame16.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -274,6 +291,7 @@ btnJogo17.addEventListener('click', () => {
     valorTotal += priceGame17;
     valorItens.innerHTML = `R$${valorTotal}`;  
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game17} | Preço: <span class="valor">R$${priceGame17.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -288,6 +306,7 @@ btnJogo18.addEventListener('click', () => {
     valorTotal += priceGame18;
     valorItens.innerHTML = `R$${valorTotal}`;
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game18} | Preço: <span class="valor">R$${priceGame18.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -302,6 +321,7 @@ btnJogo19.addEventListener('click', () => {
     valorTotal += priceGame19;
     valorItens.innerHTML = `R$${valorTotal}`; 
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game19} | Preço: <span class="valor">R$${priceGame19.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -316,6 +336,7 @@ btnJogo20.addEventListener('click', () => {
     valorTotal += priceGame20;
     valorItens.innerHTML = `R$${valorTotal}`; 
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game20} | Preço: <span class="valor">R$${priceGame20.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -330,6 +351,7 @@ btnJogo21.addEventListener('click', () => {
     valorTotal += priceGame21;
     valorItens.innerHTML = `R$${valorTotal}`;
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game21} | Preço: <span class="valor">R$${priceGame21.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -344,6 +366,7 @@ btnJogo22.addEventListener('click', () => {
     valorTotal += priceGame22;
     valorItens.innerHTML = `R$${valorTotal}`; 
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game22} | Preço: <span class="valor">R$${priceGame22.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -358,6 +381,7 @@ btnJogo23.addEventListener('click', () => {
     valorTotal += priceGame23;
     valorItens.innerHTML = `R$${valorTotal}`;
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game23} | Preço: <span class="valor">R$${priceGame23.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
@@ -372,6 +396,7 @@ btnJogo24.addEventListener('click', () => {
     valorTotal += priceGame24;
     valorItens.innerHTML = `R$${valorTotal}`; 
     // Mostrar no Modal os itens e o valor
+    qtdCarrinho.innerHTML = qtdItens;
     carrinho.innerHTML += `<p class="itens"> Jogo: ${game24} | Preço: <span class="valor">R$${priceGame24.toFixed(2)}</span></p>`;
   } else {
     alert('O item não foi adicionado!');
