@@ -1,0 +1,108 @@
+.section3 {
+  max-width: 50%;
+  margin: 0 auto;
+  background: #EBECEE;
+}
+
+.container-section3 {
+  width: 50%;
+  height: 25vh;
+  margin: 32px auto;
+  padding: 20px;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.section3__title {
+  font-size: 36px;
+  text-align: center;
+  padding: 32px 0 16px 0;
+}
+
+.container-section3 h3 {
+  font-size: 36px;
+}
+
+.container-section3 p {
+  margin: 8px 0 8px 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.container-section3 img{
+  width: 25%;
+  margin-top: 16px;
+}
+
+.playstation {
+  border-left: 5px solid #00439C;
+}
+
+.playstation img {
+  background: #00439C;
+  border-radius: 5px;
+
+}
+
+.playstation h3 {
+  color: #00439C;
+}
+
+.xbox {
+  border-left: 5px solid #107C0F;
+}
+
+.xbox img {
+  background: #107C0F;
+  border-radius: 5px;
+}
+
+.xbox h3 {
+  color: #107C0F;
+}
+
+.pc {
+  border-left: 5px solid #FFFFFF;
+}
+
+.pc h3 {
+  color: #FFFFFF;
+}
+
+.pc img {
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+@media (max-width: 700px) {
+  .container-section3  {
+    width: 80%;
+  }
+  .container-section3 img {
+    width: 40%;
+  }
+
+  .container-section3 .img-nitendo {
+    width: 60%;
+  }
+
+  .container-section3 p {
+    margin: 8px 0 8px 0;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .container-section3 h3{
+    font-size: 24px;
+  }
+  
+}
+

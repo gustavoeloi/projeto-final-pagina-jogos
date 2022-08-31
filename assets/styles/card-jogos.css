@@ -1,0 +1,292 @@
+.container-loja {
+  margin: 32px auto;
+  width: 80%;
+}
+
+.container-loja .title {
+  font-size: 36px;
+  padding-left: 8px;
+}
+
+.title-ps {
+  border-left: 5px solid #00439C;
+}
+
+.title-xbox {
+  border-left: 5px solid #107C0F;
+}
+
+.title-pc {
+  border-left: 5px solid #121212;
+}
+
+header .active {
+  border-bottom: 3px solid #3F627C;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(to right, #ededed 0%, #f6eded  51%, #ffffff  100%);
+}
+
+.section-playstation, .section-xbox, .section-pc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 20%;
+  height: 35vh;
+  margin: 32px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  color: #FFFFFF;
+  transition: 0.5s;
+
+  /* box-shadow:0 0 0 200px rgba(0, 0, 0, 0.5) inset */
+
+  box-shadow:0 0 0 200px rgba(0, 0, 0, 0.5) inset, rgba(53, 51, 52, 0.4) 5px 5px, rgba(45, 45, 45, 0.3) 10px 10px, rgba(46, 46, 46, 0.2) 15px 15px, rgba(23, 22, 23, 0.1) 20px 20px, rgba(23, 22, 23, 0.05) 25px 25px;
+}
+
+.card-title {
+  font-size: 2rem;
+}
+
+.card-sub {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.card-preco {
+  font-size: 18px;
+  color: aliceblue;
+}
+
+
+.cabecalho a{
+  text-decoration: none;
+  color: #121212;
+}
+
+
+
+/* Imagens dos cards */
+
+.card-ps-1 {
+  background-image: url('../images/images-catalogo/ps-spiderman.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-ps-2 {
+  background-image: url('../images/images-catalogo/ps-thelastofus.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-ps-3 {
+  background-image: url('../images/images-catalogo/ps-fifa22.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-ps-4 {
+  background-image: url('../images/images-catalogo/ps-godofwar.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-ps-5 {
+  background-image: url('../images/images-catalogo/ps-ghost.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-ps-6 {
+  background-image: url('../images/images-catalogo/ps-dyinglight.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-ps-7 {
+  background-image: url('../images/images-catalogo/ps-elderring.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-ps-8 {
+  background-image: url('../images/images-catalogo/ps-horizonzerodawn.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+/* PARTE XBOXS */
+
+.card-xbox-1 {
+  background-image: url('../images/images-catalogo/xbox-thecrew.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-xbox-2 {
+  background-image: url('../images/images-catalogo/ps-fifa22.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-xbox-3 {
+  background-image: url('../images/images-catalogo/xbox-residentevil.webp');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-xbox-4 {
+  background-image: url('../images/images-catalogo/xbox-nba.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-xbox-5 {
+  background-image: url('../images/images-catalogo/xbox-farcry.webp');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-xbox-6 {
+  background-image: url('../images/images-catalogo/xbox-assasinsscreed.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-xbox-7 {
+  background-image: url('../images/images-catalogo/xbox-readdemption.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-xbox-8 {
+  background-image: url('../images/images-catalogo/xbox-gtav.webp');
+  background-position: center;
+  background-size: cover;
+}
+
+/* CARDS COMPUTADOR */
+
+.card-pc-1 {
+  background-image: url('../images/images-catalogo/xbox-gtav.webp');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-pc-2 {
+  background-image: url('../images/images-catalogo/pc-csgo.webp');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-pc-3 {
+  background-image: url('../images/images-catalogo/pc-f1manager.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-pc-4 {
+  background-image: url('../images/images-catalogo/pc-hogwarts.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-pc-5 {
+  background-image: url('../images/images-catalogo/ps-dyinglight.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-pc-6 {
+  background-image: url('../images/images-catalogo/pc-rust.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-pc-7 {
+  background-image: url('../images/images-catalogo/pc-forza.webp');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-pc-8 {
+  background-image: url('../images/images-catalogo/ps-spiderman.jpg');
+  background-position: center;
+  background-size: cover;
+}
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+  margin: 32px auto;
+  padding: 15px 45px;
+  text-align: center;
+  font-size: 24px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 5px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-playstation, .section-xbox, .section-pc {
+    gap: 1.25em;
+  }
+
+  button {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .section-playstation, .section-xbox, .section-pc {
+    justify-content: space-around;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media(min-width: 1000px) {
+  .section-playstation, .section-xbox, .section-pc {
+    gap: 1em;
+  }
+}
+
+@media(min-width: 1300px) {
+  .section-playstation, .section-xbox, .section-pc {
+    gap: 1.25em;
+  }
+}

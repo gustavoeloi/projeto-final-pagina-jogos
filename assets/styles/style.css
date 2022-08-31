@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+@import url('./header.css');
+@import url('./slider.css');
+@import url('./main-section2.css');
+@import url('./main-section3.css');
+@import url('./footer.css');
+@import url('./card-jogos.css');
+@import url('./modal.css');
+@import url('./about-me.css');
+
+:root {
+  --cor-de-fundo: #EBECEE;
+
+}
+
+body {
+  background: var(--cor-de-fundo);
+  font-family: 'Roboto Mono', monospace;
+}

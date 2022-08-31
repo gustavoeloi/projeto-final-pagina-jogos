@@ -1,0 +1,29 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+
+  background: #FFFFFF;
+}
+
+.cabecalho__titulo {
+  font-size: 32px;
+}
+
+@media (max-width: 300px) {
+  .cabecalho {
+    display: block;
+  }
+
+  .cabecalho__titulo {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .cabecalho__imagens {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+}
